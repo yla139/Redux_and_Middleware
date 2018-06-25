@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import React from 'react';
+
+//https://github.com/borisyankov/react-sparklines
 import { Sparklines, SparklinesLine, SparklinesReferenceLine} from 'react-sparklines';
 
 function average(data) {

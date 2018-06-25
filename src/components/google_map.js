@@ -1,6 +1,6 @@
-import React, { Componenet } from 'react';
+import React, { Component } from 'react';
 
-class GoogleMap extends Componenet {
+class GoogleMap extends Component {
     componentDidMount(){
         new google.maps.Map(this.refs.map, {
             zoom: 12,
@@ -10,7 +10,7 @@ class GoogleMap extends Componenet {
             }
         });
     }
-    reander() {
+    render() {
         // this.refs.map
         return <div ref="map" />;
     }
